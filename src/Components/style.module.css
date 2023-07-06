@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    background-color: #fcde67;
+}
+
+.main{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.heading h1{
+    color: black;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding-top: 2rem;
+    margin: 1rem;
+}
+.searchBox{
+    margin: 1rem 0;
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.3rem 1rem;
+    
+}
+.container{
+    width: 80%;
+    margin: 25px auto;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    grid-gap: 2rem;
+    
+}
+.card{
+    width: 180px;
+    border-radius: 1rem;
+    background-color: #030e12;
+    padding: 5px;
+
+}
+h3{
+    color: aliceblue;
+}
+.indexContainer{
+    display: flex;
+    margin: 2.5rem 0;
+}
+.numBox{
+    width: 50px;
+    height: 40px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    margin: 0 5px 0 5px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+img{
+    width: 100%;
+    height: 80%;
+    border-radius: 20px;
+}
+.content img{
+
+    width: 100%;
+    height: 600px;
+
+
+}
+.innercontent{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: aliceblue;
+    color: #030e12;
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+    opacity: 0.8;
+}
+iframe{
+    height: 515px;
+    width: 100%;
+}
